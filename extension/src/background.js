@@ -1,11 +1,9 @@
+var hoogleSearchURL = 'https://www.haskell.org/hoogle/?hoogle=';
 /* 
 	function navigate
 	- navigates current tab to Hoogle with search terms
 	- used by omnibox
  */
-
-var hoogleSearchURL = 'https://www.haskell.org/hoogle/?hoogle=';
-
 function navigate(inputString) {
     if (inputString) {
         var inputURI = encodeURIComponent(inputString);
